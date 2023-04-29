@@ -1,0 +1,14 @@
+.emotion-status-wrapper {
+    font-size: 2rem;
+    color: #ffa500; /* orange */
+  }
+  .video-player-wrapper {
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+  }
+  .webcam-feed-wrapper {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+  }
+    

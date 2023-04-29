@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+.footer{
+    margin-top: 5%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.social-icon{
+    margin: 15px 0px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.personal-info{
+    margin-bottom: 15px;
+}
+.personal-info>h6,h4,a{
+    text-align: center;
+}
+.personal-info>p{
+    margin-bottom: auto;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 12px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* height: 100vh; */
+    margin-top: 2rem;
+  }
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    /* height: 75hv; */
+  }
+  .part-1 {
+    height: 500px;
+    width: 350px;
+    position: relative;
+    /* border: 3px solid green;  */
+     margin-left: 2rem;
+  }
+  .part-2{
+    margin-right: 2rem;
+  }
+
+  .title {
+    position: absolute;
+    top: 50%;
+    transform: translate(8%, -50%);
+  }
+  
+  .title > h1 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Staatliches", cursive;
+  }
+  
+  .title > p {
+    font-size: 26px;
+    font-family: "Staatliches", cursive;
+  }
+  
+  .image {
+    margin-right: 25px;
+  }
+
+  /* p {
+    color: rgb(52, 61, 72);
+    font-size: 1.125rem;
+  } */
+  .total-contact-form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+  }
+  
+  .contact-title > .section-heading {
+    width: fit-content;
+    margin: 0;
+  }
+  .contact-title {
+    margin: 0px 25px;
+  }
+  .section-heading {
+    color: #2e186a;
+    margin: auto;
+    font-size: 2.575rem;
+    padding: 0.5rem 0;
+    /* font-size: 30px; */
+    font-family: "Staatliches", cursive;
+    border-bottom: 3px solid #2e186a;
+  }
+  .contact-form {
+    flex-grow: 2;
+    margin-right: 25px;
+  }
+  .contact-title > p {
+    max-width: 560px;
+  }
+  .btn-custom {
+    margin: auto;
+    background-color: #2e186a;
+    color: white;
+    margin: 2%;
+  }

@@ -1,0 +1,48 @@
+.stream{
+    margin-top: 18%;
+}
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+  }
+  
+  .video-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .video-instruction {
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  .video-student {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .emotion-status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .same:hover{
+    color:blue;
+  }
+  .logo{
+    border-radius: 25px;
+    height: 35px;
+    width: 35px;
+  }
