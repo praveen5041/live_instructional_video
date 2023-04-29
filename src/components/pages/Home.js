@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom'
 import "aos/dist/aos.css";
 import './Home.css'
 import instruct from '../images/instruction.jpg'
-import { Container, Row, Button, Form } from "react-bootstrap";
+import { Container,  Button, Form } from "react-bootstrap";
 import { useState } from 'react'
 import Axios from 'axios'
 function Home() {
