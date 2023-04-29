@@ -10,7 +10,9 @@ function Login() {
   async function Submit(e){
     e.preventDefault()
     try{
-    const res=await Axios.post("http://localhost:5000/user/login",{
+   //const res=await Axios.post("http://localhost:5000/user/login",{
+    //const res=awit Axios.post("https://streamapis.onrender.com/user/login",{
+    const res=await Axios.post("https://liveinstructor.onrender.com/user/login",{
       email,password
     })
     if(res){

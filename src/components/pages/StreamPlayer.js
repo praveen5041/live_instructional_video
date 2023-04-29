@@ -23,15 +23,15 @@ function StreamPlayer() {
       <div className="video-instruction">
         {/* Live instructional video goes here */}
         <p>Live video</p>
-        <NavLink className="nav-item nav-link same" to='http://localhost:5002/'>
+        <NavLink className="nav-item nav-link same" to='https://streamapis.onrender.com/'>
         <img src={start} alt="Logo" className="logo" />
            Start Meeting
          </NavLink>
       </div>
       <div className="video-student">
         {/* Live video of the student listening goes here */}
-        <p>student vide0</p>
-        <NavLink className="nav-item nav-link same" to='http://localhost:5002/'>
+        <p>student video</p>
+        <NavLink className="nav-item nav-link same" to='https://streamapis.onrender.com/'>
         <img src={join} alt="Logo" className="logo" />
            Join Metting
          </NavLink>

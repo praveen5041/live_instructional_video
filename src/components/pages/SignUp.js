@@ -14,8 +14,9 @@ function SignUp() {
   async function Submit(e){
     e.preventDefault()
     try{
-      const res=await Axios.post('http://localhost:5000/user/signup',{
-        firstname,lastname,email,number,password,
+      //const res=await Axios.post('http://localhost:5000/user/signup',{
+      const res=await Axios.post("https://liveinstructor.onrender.com/user/signup",{  
+      firstname,lastname,email,number,password,
       })
       if(res){
         const {data}=res

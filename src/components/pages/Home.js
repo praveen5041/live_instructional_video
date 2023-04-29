@@ -24,8 +24,8 @@ function Home() {
     };
     Axios({
       method: "POST",
-      url: "http://localhost:5000/user/message",
-      
+     // url: "http://localhost:5000/user/message",
+      url:"https://liveinstructor.onrender.com/user/message",
       data: data,
        
     })
